@@ -1,83 +1,61 @@
-# 💋 Skincare Analytics Platform
+# 💄 Skincare Analytics Platform
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-url.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://skincare-analysis-vidhi-sharma.streamlit.app/)
 
 > 💡 *“Because analytics deserve their own runway.”*  
-> A luxury-themed, interactive dashboard decoding beauty product trends, consumer segmentation, and market dynamics — with style.
-
----
-
-![Cover](https://github.com/VidhiSharma2000/SKINCARE-ANALYSIS/raw/main/assets/skincare_dashboard_mockup.png)
+> A luxury-themed, interactive dashboard decoding beauty product trends, consumer segmentation, and market dynamics — built with Streamlit + Plotly and styled like a glass-smooth fashion feature.
 
 ---
 
 ## ✨ Features
 
-🌸 **Animated KPIs**  
-🧴 **Brand-wise Bubble & Bar Analysis**  
-💎 **Skintype Segmentation Donut**  
-📊 **Correlation Matrix & OLS Trendlines**  
-📈 **Premium Product Insights**  
-📦 **Live data-driven storytelling**
+- 💅 **Animated KPIs**  
+- 📊 **Brand-wise Bubble & Bar Analysis**  
+- 🍩 **Skin Type Segmentation Donut**  
+- 🔬 **Correlation Matrix + OLS Trendlines**  
+- 💎 **Premium Product Insights**  
+- 🎯 **Data storytelling in clean, modern visuals**
 
 ---
 
-## 🧠 Tech Stack
+## 🛠️ Tech Stack
 
-| Framework   | Styling     | Charts     |
-|-------------|-------------|------------|
-| Streamlit | Custom CSS (Playfair + Inter) | Plotly, Seaborn  
-| Pandas | Glassmorphism + gradients | px.imshow  
-| Numpy | Vogue-inspired color palette | OLS trendlines via statsmodels  
+| Framework | Styling                         | Charts                      |
+|-----------|----------------------------------|-----------------------------|
+| Streamlit | Custom CSS (Playfair + Inter)    | Plotly, Seaborn             |
+| Pandas    | Glassmorphism + gradient shadows | px.scatter, px.pie, px.imshow |
+| Numpy     | Vogue-inspired color palette     | Trendlines (OLS via statsmodels) |
 
 ---
 
 ## 🚀 Live Demo
 
-🔗 **Try it here**:  
-👉 [https://your-streamlit-url.streamlit.app](https://your-streamlit-url.streamlit.app)
+👉 [**Try the Dashboard Here**](https://skincare-analysis-vidhi-sharma.streamlit.app/)  
+📦 Dataset: [Kaggle Cosmetics Dataset](https://www.kaggle.com/datasets/krunal25/cosmetics-dataset)
 
 ---
 
-## 💁‍♀️ The Story Behind the Dashboard
+## 💭 The Story Behind This Dashboard
 
-> What began as a skincare obsession — comparing serums, decoding ingredient lists, tracking price drops — became something more:  
-> a full-blown data platform that tells **beauty market stories** in bold colors, clean graphs, and meaningful trends.  
->  
-> From product nerd to analytics artist — this dashboard is my love letter to data **and** design.
+What began as a skincare obsession — comparing serums, decoding ingredient lists, tracking price drops — became something bigger.  
+This dashboard represents hours of **data collection, cleaning, and visualization**, turning personal curiosity into a professional-grade platform that helps decode the business of beauty.
 
----
-
-## 📸 More Screenshots
-
-### 💅 KPI Cards + Gradient Header  
-![KPI Screenshot](https://github.com/VidhiSharma2000/SKINCARE-ANALYSIS/raw/main/assets/kpis.png)
-
-### 🎯 Price vs Rank Analysis  
-![Bubble Chart](https://github.com/VidhiSharma2000/SKINCARE-ANALYSIS/raw/main/assets/bubble_chart.png)
-
-### 🧴 Skin Type Donut  
-![Donut Chart](https://github.com/VidhiSharma2000/SKINCARE-ANALYSIS/raw/main/assets/donut_chart.png)
+> 💡 *This dashboard analyzes 1,472 products across 116 brands — combining personal passion with professional polish.*
 
 ---
 
-## 📎 Dataset
+## 🖼️ Screenshots
 
-- `cosmetics.csv`: Aggregated from Ulta, Sephora, and online product APIs.
+### 💜 Main Dashboard View
+![Main Dashboard](assets/dashboard_screenshot.png)
 
----
+### 📈 Price vs Performance Analysis
+![Price vs Rank](assets/price_analysis.png)
 
-## 👩‍💻 Author
-
-**Vidhi A. Sharma**  
-Business & Data Analytics | Boston University  
-📧 sharmavidhi3008@gmail.com  
-🌐 [Portfolio](https://vidhisharma2000.github.io/portfolio-vidhi) | [LinkedIn](https://www.linkedin.com/in/17vidhisharma) | [GitHub](https://github.com/VidhiSharma2000)
+### 🍩 Price Distribution
+![Donut Chart](assets/price_distribution.png)
 
 ---
 
-## 🪄 License
-
-This project is for learning, personal portfolio, and fun.  
-If you remix it, tag me — I’ll cheer you on 💕
+## 📂 Repository Structure
 
