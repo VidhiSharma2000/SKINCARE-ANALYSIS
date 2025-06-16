@@ -7,34 +7,34 @@
 
 ---
 
-![Cover](https://media.giphy.com/media/xUOxf54R0B9frrfVwU/giphy.gif)
+![Cover](https://github.com/VidhiSharma2000/SKINCARE-ANALYSIS/raw/main/assets/skincare_dashboard_mockup.png)
 
 ---
 
 ## ✨ Features
 
-🌸 **Interactive KPIs**  
+🌸 **Animated KPIs**  
 🧴 **Brand-wise Bubble & Bar Analysis**  
 💎 **Skintype Segmentation Donut**  
 📊 **Correlation Matrix & OLS Trendlines**  
-📈 **Premium Category Insights**  
+📈 **Premium Product Insights**  
 📦 **Live data-driven storytelling**
 
 ---
 
-## 🧠 Built With
+## 🧠 Tech Stack
 
 | Framework   | Styling     | Charts     |
 |-------------|-------------|------------|
-| [Streamlit](https://streamlit.io) | Custom CSS (Playfair + Inter) | Plotly Express  
-| [Pandas](https://pandas.pydata.org/) | Glassmorphism + gradients | Seaborn + px.imshow  
-| [Numpy](https://numpy.org/) | Vogue-inspired palette | OLS Trendlines  
+| Streamlit | Custom CSS (Playfair + Inter) | Plotly, Seaborn  
+| Pandas | Glassmorphism + gradients | px.imshow  
+| Numpy | Vogue-inspired color palette | OLS trendlines via statsmodels  
 
 ---
 
-## 🎯 Live Demo
+## 🚀 Live Demo
 
-🔗 **Explore the live app here**:  
+🔗 **Try it here**:  
 👉 [https://your-streamlit-url.streamlit.app](https://your-streamlit-url.streamlit.app)
 
 ---
@@ -48,29 +48,29 @@
 
 ---
 
-## 📸 Screenshots
+## 📸 More Screenshots
 
-### 💅 Dashboard Overview  
-![Screenshot](https://your-screenshot-link.com)
+### 💅 KPI Cards + Gradient Header  
+![KPI Screenshot](https://github.com/VidhiSharma2000/SKINCARE-ANALYSIS/raw/main/assets/kpis.png)
 
 ### 🎯 Price vs Rank Analysis  
-![Bubble](https://your-another-screenshot-link.com)
+![Bubble Chart](https://github.com/VidhiSharma2000/SKINCARE-ANALYSIS/raw/main/assets/bubble_chart.png)
 
-> *“Powered by passion, refined by code.”*
+### 🧴 Skin Type Donut  
+![Donut Chart](https://github.com/VidhiSharma2000/SKINCARE-ANALYSIS/raw/main/assets/donut_chart.png)
 
 ---
 
 ## 📎 Dataset
 
-- [cosmetics.csv](cosmetics.csv)  
-Scraped and refined from multiple sources including Ulta, Sephora & product APIs.
+- `cosmetics.csv`: Aggregated from Ulta, Sephora, and online product APIs.
 
 ---
 
 ## 👩‍💻 Author
 
 **Vidhi A. Sharma**  
-Data & Business Analytics | Boston University  
+Business & Data Analytics | Boston University  
 📧 sharmavidhi3008@gmail.com  
 🌐 [Portfolio](https://vidhisharma2000.github.io/portfolio-vidhi) | [LinkedIn](https://www.linkedin.com/in/17vidhisharma) | [GitHub](https://github.com/VidhiSharma2000)
 
@@ -78,6 +78,6 @@ Data & Business Analytics | Boston University
 
 ## 🪄 License
 
-Open-source for learning, non-commercial use, and fun!  
-If you reuse this — tag me, I’ll hype you up 😎
+This project is for learning, personal portfolio, and fun.  
+If you remix it, tag me — I’ll cheer you on 💕
 
