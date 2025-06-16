@@ -1,61 +1,116 @@
-# 💄 Skincare Analytics Platform
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://skincare-analysis-vidhi-sharma.streamlit.app/)
+<h1 align="center">
+  💄 Skincare Sales Dashboard
+</h1>
 
-> 💡 *“Because analytics deserve their own runway.”*  
-> A luxury-themed, interactive dashboard decoding beauty product trends, consumer segmentation, and market dynamics — built with Streamlit + Plotly and styled like a glass-smooth fashion feature.
+<p align="center">
+  <img src="https://skincare-analysis-vidhi-sharma.streamlit.app/_static/favicon.png" width="50" />
+</p>
 
----
+<p align="center">
+  <b>A fashionable, AI-powered analytics dashboard for beauty brand insights.</b><br>
+  Visualized like it’s curated by Anna Wintour herself 💅
+</p>
 
-## ✨ Features
-
-- 💅 **Animated KPIs**  
-- 📊 **Brand-wise Bubble & Bar Analysis**  
-- 🍩 **Skin Type Segmentation Donut**  
-- 🔬 **Correlation Matrix + OLS Trendlines**  
-- 💎 **Premium Product Insights**  
-- 🎯 **Data storytelling in clean, modern visuals**
-
----
-
-## 🛠️ Tech Stack
-
-| Framework | Styling                         | Charts                      |
-|-----------|----------------------------------|-----------------------------|
-| Streamlit | Custom CSS (Playfair + Inter)    | Plotly, Seaborn             |
-| Pandas    | Glassmorphism + gradient shadows | px.scatter, px.pie, px.imshow |
-| Numpy     | Vogue-inspired color palette     | Trendlines (OLS via statsmodels) |
+<p align="center">
+  <a href="https://skincare-analysis-vidhi-sharma.streamlit.app/">
+    <img src="https://img.shields.io/badge/Launch-Dashboard-red?style=for-the-badge&logo=streamlit" />
+  </a>
+  <a href="https://github.com/VidhiSharma2000/SKINCARE-ANALYSIS">
+    <img src="https://img.shields.io/github/repo-size/VidhiSharma2000/SKINCARE-ANALYSIS?style=for-the-badge&color=brightgreen" />
+  </a>
+</p>
 
 ---
 
-## 🚀 Live Demo
+## ✨ Live App
 
-👉 [**Try the Dashboard Here**](https://skincare-analysis-vidhi-sharma.streamlit.app/)  
-📦 Dataset: [Kaggle Cosmetics Dataset](https://www.kaggle.com/datasets/krunal25/cosmetics-dataset)
+▶️ [Click here to try the dashboard](https://skincare-analysis-vidhi-sharma.streamlit.app/)  
+This sleek Streamlit app analyzes skincare product data with fashion-forward flair.
 
 ---
 
-## 💭 The Story Behind This Dashboard
+## 💎 Features
 
-What began as a skincare obsession — comparing serums, decoding ingredient lists, tracking price drops — became something bigger.  
-This dashboard represents hours of **data collection, cleaning, and visualization**, turning personal curiosity into a professional-grade platform that helps decode the business of beauty.
-
-> 💡 *This dashboard analyzes 1,472 products across 116 brands — combining personal passion with professional polish.*
+- 📊 Trendy bar, donut, and heatmap charts with **Tiffany blue**, **Vogue red**, and curated color palettes
+- 🧴 KPIs showing total products, average price, and ranking spread
+- 🌱 Skin-type segmentation visualized in a luxe donut pie chart
+- 💅 Light, cream-colored background with Inter fonts and drop shadow styling
+- ⚡️ Responsive layout and zero-lag experience
 
 ---
 
 ## 🖼️ Screenshots
 
-### 💜 Main Dashboard View
-![Main Dashboard](assets/dashboard_screenshot.png)
-
-### 📈 Price vs Performance Analysis
-![Price vs Rank](assets/price_analysis.png)
-
-### 🍩 Price Distribution
-![Donut Chart](assets/price_distribution.png)
+<div align="center">
+  <img src="images/dashboard_screenshot.png" width="90%"><br><br>
+  <img src="images/price_analysis.png" width="45%">
+  <img src="images/price_distribution.png" width="45%">
+</div>
 
 ---
 
-## 📂 Repository Structure
+## 📂 Folder Structure
+
+```
+📁 SKINCARE-ANALYSIS/
+├── app.py                  # Main Streamlit dashboard
+├── cosmetics.csv           # Dataset (from Kaggle)
+├── requirements.txt        # For Streamlit Cloud deployment
+├── images/                 # Dashboard screenshots
+│   ├── dashboard_screenshot.png
+│   ├── price_analysis.png
+│   └── price_distribution.png
+└── README.md               # This file!
+```
+
+---
+
+## 🧠 Dataset Source
+
+This analysis uses the `cosmetics.csv` dataset from **Kaggle**, which includes:
+- Product names, brands, prices, and ranks
+- Skin type suitability tags (Oily, Dry, Sensitive, etc.)
+
+You can find the dataset [here](https://www.kaggle.com/datasets/PromptCloudHQ/ulta-beauty-products-dataset).
+
+---
+
+## 🚀 Run Locally
+
+Make sure you have **Python 3.9+** installed.
+
+```bash
+git clone https://github.com/VidhiSharma2000/SKINCARE-ANALYSIS.git
+cd SKINCARE-ANALYSIS
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using [Streamlit Cloud](https://streamlit.io/cloud), and auto-updates with changes from this GitHub repo.
+
+---
+
+## 👩🏻‍💻 About Me
+
+Hi! I'm **Vidhi A. Sharma** — business analyst, fashion-forward coder, and data storyteller.  
+Connect with me:  
+[LinkedIn](https://www.linkedin.com/in/17vidhisharma) | [GitHub](https://github.com/VidhiSharma2000)
+
+---
+
+## ✨ Credits
+
+Designed with obsessive attention to color palettes by me.  
+Inspired by the minimalism of Apple, the elegance of Vogue, and the sass of Glossier.
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&pause=1000&color=FF3E7F&center=true&vCenter=true&lines=Thanks+for+visiting+my+dashboard!;Stay+stylish+and+analytical.💅" />
+</p>
 
